@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  opacity: 0.9;
+}
+/*! tümüyle ekranı kaplaması için * a margin ve padding de 0 verdik */
+
+section.img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+section.img-1 {
+  background-image: url(./img/bg.jpg);
+}
+section.img-2 {
+  background-image: url(./img/bg2.jpg);
+}
+section.img-3 {
+  background-image: url(./img/bg3.jpg);
+}
+section.img-4 {
+  background-image: url(./img/bg4.jpg);
+}
+
+span.write {
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 4px;
+  margin: 40px;
+  color: white;
+}
+
+div.back {
+  background-color: rgb(48, 47, 49);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  outline: 14px inset purple;
+  outline-offset: 1rem;
+}
+/*! outline da arayı açmak için outline ve outline-offset kullandık */
+
+section.paragraph{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 27px;
+  padding: 60px;
+}
+section.white{
+  color: black;
+  background-color: white;
+}
+section.black{
+  color: white;
+  background-color: black;
+}
+
+img#clarusway {
+  width: 600px;
+}
+h2{
+  margin-bottom: 20px;
+}
